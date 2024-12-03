@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.home {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(11, 11, 12);
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(43, 37, 85, 0.664);
+}
+.logo {
+    width: 20%;
+    height: 100px;
+    background-image: url(/imgs/logo.png);
+    float: left;
+}
+.menu {
+    width: 80%;
+    height: 100px;
+    float: left;
+}
+.menu ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+}
+.menu ul li {
+    list-style: none;
+}
+.menu ul li a{
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
