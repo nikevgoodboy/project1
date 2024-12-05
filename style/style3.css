@@ -1,11 +1,11 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
-.home {
+.container{
     width: 100%;
-    height: 700px;
-    background-image: url(/imgs/background.webp);
+    height: 760px;
+    background-color: black;
 }
 header {
     width: 100%;
@@ -44,49 +44,49 @@ header {
 .menu ul li a:hover {
     color: rgb(20, 243, 20);
 }
-.text {
-    width: 55%;
-    height: 440px;
-    background-color: rgba(0, 0, 0, 0.411);
-    margin-top: 30px;
-    margin-left: 20px;
-    border-radius: 20px;
+.body{
+    width: 100%;
+    height: 500px;
 }
-.text img{
-    width: 40%;
-    height: 300px;
-}
-.textii h1{
-    font-family: "New Rocker", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(34, 241, 6);
-    font-size: 70px;
-    margin-left: 40px;
-    padding: 40px;
-}
-.textii h2{
-    margin-left: 80px;
-    padding: 20px;
+.body h1{
     color: white;
+    text-align: center;
+    margin-top: 30px;
 }
-.text button{
-    background-color: rgb(18, 245, 18);
-    width: 45%;
-    height: 70px;
-    border-radius: 50px;
-    margin-left: 160px;
+.form-box{
+    width: 90%;
+    height: 400px;
+    background-color: rgba(145, 140, 140, 0.329);
+    margin: auto;
+    border-radius: 10px;
+}
+.form-box h2{
+    color: white;
+    margin-left:65px;
+    padding: 20px;
+}
+.form-box input {
+    width: 90%;
+    padding: 20px 5px;
+    margin-left: 65px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-box input[type=submit]{
+    width: 90%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 65px;
     border: none;
+    border-radius: 10px;
+    cursor: pointer;
     margin-top: 50px;
 }
-.text button a{
-    text-decoration: none;
-    color: black;
-    font-family: "Anton SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
+.form-box input[type=submit]:hover{
+    background-color: coral;
 }
 footer {
     width: 100%;
